@@ -7,7 +7,7 @@ Projekt-Dokumentation
 Datum	| Version |	Zusammenfassung
 24.8  | 0.01    |Angefangen mit Projekt
 01.09 | 0.02    |Basis des Spiels steht
-08.09.| 0.03    |
+08.09.| 0.03    |Program zählt jetzt versuche
 1.0.0	
 1 Informieren
 1.1 Ihr Projekt
@@ -29,57 +29,38 @@ TC-№	        Ausgangslage            Eingabe	Erwartete Ausgabe
 2.1|	Eingabe einer Zahl               | 	  23  |	zufällige Zahl 
 3.1|	Fehlermeldung bei Falscher Zahl  |	 123  | Falsche Eingabe bitte wählen sie ein Natürliche Zahl von 1-100 und geben sie Ziffern ein
 4.1|	Richtige Zahl bestimmt           |	  23  |	Richtige Zahl
-5.1|	Falsche Zahl                     | X >  45|	Die Zahl ist kleiner als 45
-5.2|	Falsche Zahl                     | x >  12|	
-6.1|	Versuche der Spieler eingerichtet|	Vorgang	 Du hast _ (Anzahl) Versuche gebraucht| um die Zahl zu erraten
+5.1|	Falsche Zahl                     | X >  45|	Die Zahl ist grösser als 45
+5.2|	Falsche Zahl                     | x >  12|	Die Zahl ist grösser als 12
+
 
 
 2 Planen
-AP-№	Frist	Zuständig	Beschreibung	geplante Zeit
-1.A	1.9.22	Yildirim	Code schreiben welches eine Zahl generiert	45 min
-1.B	1.9.22	Yildirim	Code generiren aber begrenzt von 1-100	10 min
-2.A	1.9.22	Yildirim	Code für die Eingabe von der Zahl	15 min
-3.B	1.9.22	Yildirim	Begrenzung von Eingabe der Zahl	30 min
-4.A	1.9.22	Yildirim	Fehlermeldung bei Falscher Eingabe	45 min
-5.A	1.9.22	Yildirim	Ausgabe ob die Zahl erraten worden ist	22 min
-6.A	1.9.22	Yildirim	Ausgabe ob Zahl zu gross ist	22 min
-6.B	1.9.22	Yildirim	Ausgabe ob Zahl zu klein ist	22 min
-7.A	1.9.22	Yildirim	Ausgabe Anzahl versuchen	45 min
-Total:
+AP-№|	 Frist |	Zuständig|	                Beschreibung	             |   geplante Zeit    
+1.A | 1.9.22 |	Yildirim |  Code schreiben welches eine Zahl generiert |      45 min
+1.B |	1.9.22 |	Yildirim |  Code generiren aber begrenzt von 1-100	   |      10 min
+2.A |	1.9.22 |	Yildirim |	Code für die Eingabe von der Zahl	         |      15 min
+3.B |	1.9.22 |	Yildirim |	Begrenzung von Eingabe der Zahl	           |      30 min
+4.A |	1.9.22 |	Yildirim |	Fehlermeldung bei Falscher Eingabe	       |      45 min
+5.A |	1.9.22 |	Yildirim |	Ausgabe ob die Zahl erraten worden ist	   |      22 min
+6.A |	1.9.22 |	Yildirim |	Ausgabe ob Zahl zu gross ist	             |      22 min
+6.B |	1.9.22 |	Yildirim |	Ausgabe ob Zahl zu klein ist	             |      22 min
+7.A |	1.9.22 |	Yildirim |	Ausgabe Anzahl versuchen	                 |      45 min
 
-✍️ Die Nummer hat das Format N.m, wobei N die Nummer der User Story ist, auf die sich das Arbeitspaket bezieht, und m von A an nach oben buchstabiert. Beispiel: Das dritte Arbeitspaket, das die zweite User Story betrifft, hat also die Nummer 2.C.
-
-✍️ Ein Arbeitspaket sollte etwa 45' für eine Person in Anspruch nehmen. Die totale Anzahl Arbeitspakete sollte etwa Folgendem entsprechen: Anzahl R-Sitzungen ╳ Anzahl Gruppenmitglieder ╳ 4. Wenn Sie also zu dritt an einem Projekt arbeiten, für welches zwei R-Sitzungen geplant sind, sollten Sie auf 2 ╳ 3 ╳4 = 24 Arbeitspakete kommen. Sollten Sie merken, dass Sie hier nicht genügend Arbeitspakte haben, denken Sie sich weitere "Kann"-User Stories für Kapitel 1.2 aus.
 
 3 Entscheiden
 ✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
 
 4 Realisieren
-AP-№	Datum	Zuständig	geplante Zeit	tatsächliche Zeit
-1.A  |9.9.2022    ich   | ich informiere|               45            30 
-                          mich im Internet 
-
-| 1.b | 9.9.2022|   Yildirim    Ich Programmiere        45
-                              eine Zahl zwischen                      45
-                              1 und 100
-
-  2    9.9.2022   Yildirim      Programmiere ob         45            30
-                           die Zahl richtig oder 
-                           Falsch ist . 
-
- 2b    9.9.2022     Yildirim Programmiere das richtig   30            20 
-                           oder falsch angezeigt wird
+AP-№ |   Datum  |	Zuständig |	geplante Zeit  |	tatsächliche Zeit |
+1.1  | 1.9.2022 |  Yildirim |     45         |         30         |
+2.1  | 1.9.2022 |  Yildirim |     45         |         45         |              
+3.1  | 1.9.2022 |  Yildirim |     30         |         20         |
+4.1  | 1.9.2022 |  Yildirim |     60         |         45         |
+5.1  | 1.9.2022 |  Yildirim |     60         |         25         |
  
- 3    9.9.2022     Yildirim     weiterspielen y/ no     60            45
- 
- 
- 4    9.9.2022    Yildirim      ist die Zahl grösser    60            25 
-                           oder kleiner
 
+  
 
- 5   9.9.2022    Yildirim    Fehlermeldung wenn keine                 20
-                         ziffer eingegeben ist 
-                          erstellen.
 ...				
 ✍️ Tragen Sie jedes Mal, wenn Sie ein Arbeitspaket abschließen, hier ein, wie lang Sie effektiv dafür hatten.
 
