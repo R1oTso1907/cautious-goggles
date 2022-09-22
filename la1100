@@ -5,9 +5,15 @@ Projekt-Dokumentation
 ✍️ Ihr Gruppenname und Ihre Nachnamen
 
 Datum	| Version |	Zusammenfassung
-24.8  | 0.01    |Angefangen mit Projekt
-01.09 | 0.02    |Basis des Spiels steht
-08.09.| 0.03    |Program zählt jetzt versuche
+24.8  | 0.01    | Angefangen mit Projekt
+31.8. | 0.2     | User storys erstellt und programmiert
+7.09. | 0.3     | User storys programmiert
+14.9. | 0.4     | User storys programmiert und GitHub bearbeitet
+22.9. | 1.00    | Alles überarbeiten beenden
+
+
+
+
 1.0.0	
 1 Informieren
 1.1 Ihr Projekt
@@ -35,30 +41,30 @@ TC-№	        Ausgangslage            Eingabe	Erwartete Ausgabe
 
 
 2 Planen
-AP-№|	 Frist |	Zuständig|	                Beschreibung	             |   geplante Zeit    
-1.A | 1.9.22 |	Yildirim |  Code schreiben welches eine Zahl generiert |      45 min
-1.B |	1.9.22 |	Yildirim |  Code generiren aber begrenzt von 1-100	   |      10 min
-2.A |	1.9.22 |	Yildirim |	Code für die Eingabe von der Zahl	         |      15 min
-3.B |	1.9.22 |	Yildirim |	Begrenzung von Eingabe der Zahl	           |      30 min
-4.A |	1.9.22 |	Yildirim |	Fehlermeldung bei Falscher Eingabe	       |      45 min
-5.A |	1.9.22 |	Yildirim |	Ausgabe ob die Zahl erraten worden ist	   |      22 min
-6.A |	1.9.22 |	Yildirim |	Ausgabe ob Zahl zu gross ist	             |      22 min
-6.B |	1.9.22 |	Yildirim |	Ausgabe ob Zahl zu klein ist	             |      22 min
-7.A |	1.9.22 |	Yildirim |	Ausgabe Anzahl versuchen	                 |      45 min
+AP-№|	 Frist |	Zuständig|	                Beschreibung	               |   geplante Zeit    
+1.A | 1.9.22 |	Yildirim | Code schreiben welches eine Zahl generiert  |      45 min
+1.B |	1.9.22 |	Yildirim | Code generiren aber begrenzt von 1-100	     |      10 min
+2.A |	1.9.22 |	Yildirim |	Code für die Eingabe von der Zahl	          |      15 min
+3.B |	1.9.22 |	Yildirim |	Begrenzung von Eingabe der Zahl	            |      30 min
+4.A |	1.9.22 |	Yildirim |	Fehlermeldung bei Falscher Eingabe	         |      45 min
+5.A |	1.9.22 |	Yildirim |	Ausgabe ob die Zahl erraten worden ist	     |      22 min
+6.A |	1.9.22 |	Yildirim |	Ausgabe ob Zahl zu gross ist	               |      22 min
+6.B |	1.9.22 |	Yildirim |	Ausgabe ob Zahl zu klein ist	               |      22 min
+7.A |	1.9.22 |	Yildirim |	Ausgabe Anzahl versuchen	                   |      45 min
 
 
 3 Entscheiden
 ✍️ Dokumentieren Sie hier Ihre Entscheidungen und Annahmen, die Sie im Bezug auf Ihre User Stories und die Implementierung getroffen haben.
 
 4 Realisieren
-AP-№ |   Datum  |	Zuständig |	geplante Zeit  |	tatsächliche Zeit |
-1.1  | 1.9.2022 |  Yildirim |     45         |         30         |
+AP-№ |   Datum  |	Zuständig |	geplante Zeit  |	tatsächliche Zeit  |
+1.1  | 1.9.2022 |  Yildirim |     45         |         60         |
 2.1  | 1.9.2022 |  Yildirim |     45         |         45         |              
 3.1  | 1.9.2022 |  Yildirim |     30         |         20         |
 4.1  | 1.9.2022 |  Yildirim |     60         |         45         |
 5.1  | 1.9.2022 |  Yildirim |     60         |         25         |
- 
-
+7.1  | 8.9.2022 |  Yildirim |     45         |         100        |
+8.1  | 8.9.2022 |  Yildirim |     45         |         50         |
   
 
 ...				
@@ -66,10 +72,20 @@ AP-№ |   Datum  |	Zuständig |	geplante Zeit  |	tatsächliche Zeit |
 
 5 Kontrollieren
 5.1 Testprotokoll
-TC-№	Datum	Resultat	Tester
-1.1			
-...			
-✍️ Vergessen Sie nicht, ein Fazit hinzuzufügen, welches das Test-Ergebnis einordnet.
+TC-№	                Datum	             Resultat	               Tester
+1.1			              22.9.2022          funktioniert         Ensar Yildirim
+1.2                 22.9.2022          funktioniert         Ensar Yildirim
+1.3                 22.9.2022          funktioniert         Ensar Yildirim 
+1.4                 22.9.2022          funktioniert         Ensar Yildirim
+1.5                 22.9.2022          funktioniert         Ensar Yildirim
+1.6                 22.9.2022          funktioniert         Ensar Yildirim
+1.7                 22.9.2022          funktioniert         Ensar Yildirim
+1.8                 22.9.2022          funktioniert         Ensar Yildirim
+1.9                 22.9.2022          funktioniert         Ensar Yildirim
+
+Fazi: Das Programm funktioniert ainwandfrei.
+
+
 
 5.2 Exploratives Testen
 BR-№	Ausgangslage	Eingabe	Erwartete Ausgabe	Tatsächliche Ausgabe
